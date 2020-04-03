@@ -1,0 +1,49 @@
+[
+  {
+    "path": "/mock",
+    "method": "put",
+    "params": {
+      "s1": "params, query or request",
+      "n1": 0,
+      "b1": false
+    },
+    "response": {
+      "ps1": "this is a description",
+      "pn1": "0; field type is number"
+    }
+  },
+  {
+    "path": "/",
+    "method": "post",
+    "query": {
+      "s1": "",
+      "n1": 0,
+      "b1": false
+    },
+    "request": {
+      "qs1": "",
+      "qn1": "0;number type"
+    },
+    "response": {
+      "ps1": "response string",
+      "pn1": "0;this is a description",
+      "po1": {
+        "po1s1": "mock server",
+        "po1n1": "1;node",
+        "po1n2": -1
+      },
+      "pa1": [
+        {
+          "pa11o1": {},
+          "pa11n1": 2,
+          "pa11n2": "2",
+          "pa11b1": false
+        },
+        {
+          "pa12n1": 1024
+        },
+        "1024;"
+      ]
+    }
+  }
+]

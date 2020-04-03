@@ -1,0 +1,24 @@
+{
+  "name": "restify-mock",
+  "version": "0.1.0-alpha.8",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "mock",
+    "restful"
+  ],
+  "author": "tuke",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "restify-clients": "^2.6.9"
+  }
+}
